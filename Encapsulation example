@@ -1,0 +1,41 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	A obj1=new A();
+	obj1.setEmpId(5);
+	
+	A obj3 =new A();
+	obj3.setEmpName("Karunyah");
+	
+	A obj2=new A();
+	obj2.setEmpId(51);
+	
+	A obj4 =new A();
+	obj4.setEmpName("Karuppiah");
+	
+	System.out.println(obj3.getEmpName()+ " " +obj4.getEmpName());
+		
+	}
+}
+class A{
+  int EmpId;
+  String EmpName;
+  public void setEmpName(String EmpName){
+      this.EmpName=EmpName;
+  }
+  public void setEmpId(int EmpId){
+      this.EmpId=EmpId;
+  }
+  public String getEmpName(){
+      return EmpName;
+  }
+  public int getEmpId(){
+      return EmpId;
+  }
+  
+  
+  
+}
