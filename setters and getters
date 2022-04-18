@@ -1,0 +1,53 @@
+public class Main{
+    public static void main(String args[]){
+        A obj1=new A();
+        obj1.setj(15);
+        
+        A obj2=new A();
+        obj2.setname("Hello");
+        
+         System.out.println("Id:"+obj1.getj()+" "+"Name: "+obj2.getname());
+         
+         
+        A obj3=new A();
+        obj3.setj(16);
+        
+        A obj4=new A();
+        obj4.setname("H");
+         System.out.println("Id:"+obj3.getj()+" "+"Name: "+obj4.getname());
+         
+         
+        A obj5=new A();
+        obj5.setj(17);
+        
+        A obj6=new A();
+        obj6.setname("He");
+         System.out.println("Id:"+obj5.getj()+" "+"Name: "+obj6.getname());
+         
+         
+        A obj7=new A();
+        obj7.setj(18);
+        
+        A obj8=new A();
+        obj8.setname("Hel");
+        System.out.println("Id:"+obj7.getj()+" "+"Name: "+obj8.getname());
+       
+      
+    }
+}
+class A{
+    int j;
+    String name;
+    public void setj(int j){
+        this.j=j;
+    }
+    public void setname(String name){
+        this.name=name;
+    }
+    public int getj(){
+        return j;
+    }
+    public String getname(){
+        return name;
+    }
+}
